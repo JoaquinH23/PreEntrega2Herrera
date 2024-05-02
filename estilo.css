@@ -27,7 +27,21 @@
     background-color:bisque;
     text-shadow: 0 0 2px rgb(0, 0, 0)
 }
-.redes{
+footer{
+    font-family: "Bebas Neue", sans-serif;
+    background-color: bisque;
     text-align: center;
+    color: brown;
+    font-size: 30px;
+    text-shadow: 0 0 2px rgb(0, 0, 0)
+}
+footer a{
+    color: brown;
+    font-size: 30px;
+    letter-spacing: 15px;
     text-decoration: none;
+    text-shadow: none;
+}
+footer a:hover{
+    color: rgb(168, 168, 168)
 }
