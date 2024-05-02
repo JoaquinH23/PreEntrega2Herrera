@@ -46,12 +46,55 @@ footer a:hover{
     color: rgb(168, 168, 168)
 }
 .jumbotron{
-    background-image: url(Imagenes/architecture-1868473_1920.jpg);
+    background-image: url(../Imagenes/architecture-1868473_1920.jpg);
     margin-top: 10px;
     height: 500px;
-    color: brown;
+    background-size: cover;
+    background-position: center;
+    color:brown;
+    font-family: "Bebas Neue", sans-serif;
+    }
+.btn-info{
+    background-color: bisque;
+}
+h1{
+    text-align: center;
+    padding: 20px;
+    color: bisque;
+    text-shadow: 0 0 2px rgb(0, 0, 0)
+}
+p{
+    color: bisque;
+}
+h3{
+    text-align: center;
+    padding: 20px;
+    color: bisque;
+    background-color:brown;
     font-family: "Bebas Neue", sans-serif;
 }
-.btn-info{
+.nleft{
+    background-image: url(../Imagenes/muslim-7520627_1920.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+}
+h4,p{
+    color: brown;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Bebas Neue", sans-serif;
+}
+h2{
+    text-align: center;
+    padding: 10px;
+    text-transform: uppercase;
+    color: bisque;
     background-color: brown;
+    font-family: "Bebas Neue", sans-serif;
+}
+article{
+    border: 5px solid brown;
+    text-align: center;
+    background-color: bisque;
 }
