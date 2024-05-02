@@ -1,5 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
+body{
+    background-color: bisque;
+}
 .navbar{
     background-color: bisque;
 }
@@ -47,8 +56,8 @@ footer a:hover{
 }
 .jumbotron{
     background-image: url(../Imagenes/architecture-1868473_1920.jpg);
-    margin-top: 10px;
-    height: 500px;
+    width: 100%;
+    height: auto;
     background-size: cover;
     background-position: center;
     color:brown;
@@ -57,11 +66,11 @@ footer a:hover{
 .btn-info{
     background-color: bisque;
 }
-h1{
+h1, p{
     text-align: center;
     padding: 20px;
     color: bisque;
-    text-shadow: 0 0 2px rgb(0, 0, 0)
+    font-family: "Bebas Neue", sans-serif;
 }
 p{
     color: bisque;
@@ -97,4 +106,71 @@ article{
     border: 5px solid brown;
     text-align: center;
     background-color: bisque;
+}
+.galeria{
+    display: grid;
+    background-image: url(../Imagenes/architecture-1868473_1920.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    padding: 5%;
+    height: auto;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3,180px);
+    grid-template-areas:
+    "img1 img2 img3"
+    "img4 img5 img6"
+    "img7 img8 img9";
+    grid-gap: 70px;
+}
+.item{
+    border: 3px solid brown;
+    width: 100%;
+    height: auto;
+    background-position: center;
+    background-size: cover;
+    border-radius: 2px;
+    transition: all 0.5s;
+    filter: grayscale(100%);
+}
+
+.item:hover{
+    filter: grayscale(0%);
+    transform: scale(1.02);
+}
+.item1{
+    grid-area: img1;
+    background-image: url(../Imagenes/Cuadro\ 1.png);
+}
+.item2{
+    grid-area: img2;
+    background-image: url(../Imagenes/Cuadro\ 2.png);
+}
+.item3{
+    grid-area: img3;
+    background-image: url(../Imagenes/Cuadro\ 3.png);
+}
+.item4{
+    grid-area: img4;
+    background-image: url(../Imagenes/Cuadro\ 4.jpeg);
+}
+.item5{
+    grid-area: img5;
+    background-image: url(../Imagenes/Cuadro\ 5.png);
+}
+.item6{
+    grid-area: img6;
+    background-image: url(../Imagenes/Cuadro\ 6.png);
+}
+.item7{
+    grid-area: img7;
+    background-image: url(../Imagenes/Cuadro\ 7.png);
+}
+.item8{
+    grid-area: img8;
+    background-image: url(../Imagenes/Cuadro\ 8.png);
+}
+.item9{
+    grid-area: img9;
+    background-image: url(../Imagenes/Cuadro\ 9.png);
 }
