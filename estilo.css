@@ -1,0 +1,15 @@
+
+.navbar{
+    background-color: bisque;
+}
+.nav-link{
+    color: brown;
+}
+
+.slide img{
+    height: 65vh;
+}
+.h3{
+    border-radius: 5px solid;
+    background-color: aquamarine !important;
+}
