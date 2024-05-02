@@ -45,3 +45,13 @@ footer a{
 footer a:hover{
     color: rgb(168, 168, 168)
 }
+.jumbotron{
+    background-image: url(Imagenes/architecture-1868473_1920.jpg);
+    margin-top: 10px;
+    height: 500px;
+    color: brown;
+    font-family: "Bebas Neue", sans-serif;
+}
+.btn-info{
+    background-color: brown;
+}
